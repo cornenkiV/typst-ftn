@@ -68,10 +68,11 @@
 
 // TODO: Овде укључујете поглавља
 #include "poglavlja/1-uvod.typ"
-#include "poglavlja/2-stanje.typ"
+#include "poglavlja/2-teorijske-osnove.typ"
+#include "poglavlja/3-implementacija-konsenzus-algoritama.typ"
+#include "poglavlja/4-eksperimenti-i-analiza.typ"
+#include "poglavlja/5-p2p-mreza.typ"
 #include "poglavlja/7-zakljucak.typ"
-
-
 
 #set heading(numbering: none)
 #show outline: set heading(outlined: true)
