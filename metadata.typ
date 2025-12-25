@@ -1,9 +1,9 @@
 #let format_strane = "iso-b5"         // могуће вредности: iso-b5, a4
-#let naslov = "Паралелизација Proof-Of-Work i Proof-Of-Stake blockchain консензуса у програмском језику Rust у оквиру децентрализованог P2P система"
+#let naslov = "Паралелизација PоW i PоS блокчејн консензус алгоритма у оквиру децентрализованог P2P система"
 #let autor = "Владимир Чорненки"
 
 // На енглеском
-#let naslov_eng = "Parallelization of Proof-Of-Work and Proof-Of-Stake blockchain consensus in the Rust programming language within a decentralized P2P system"
+#let naslov_eng = "Parallelization of PоW and PоS blockchain consensus algorithm within a decentralized P2P system"
 #let autor_eng = "Vladimir Cornenki"
 
 #let indeks = "SV53/2021"
@@ -21,13 +21,14 @@
 
 #let godina = [#datetime.today().year()]
 
-#let kljucne_reci = "Блокчејн, Консензус Алгоритми, Proof-of-Work, Proof-of-Stake, Паралелизација, Дистрибуирани Системи, P2P Мрежа, Јако Скалирање, Слабо Скалирање, Rust, Python, Gossip Протокол"
+#let kljucne_reci = "Блокчејн, Консензус Алгоритми, PoW, PoS, Дистрибуирани Системи, P2P Мрежа, Rust, Python"
 #let apstrakt = [
      Овај рад описује пројектовање и имплементацију комплетног блокчејн система са фокусом на паралелизацију консензус алгоритама и дистрибуирану P2P комуникацију. Пројекат обухвата паралелне имплементације Proof-of-Work (PoW) и Proof-of-Stake (PoS) алгоритама у програмским језицима Rust и Python, детаљну анализу перформанси кроз експерименте јаког и слабог скалирања, и функционалну децентрализовану мрежу са "gossip" протоколом и консензусом заснованим на правилу најдужег ланца. Резултати демонстрирају значајне предности паралелизације и истичу фундаменталне разлике у ефикасности између PoW и PoS приступа.
 ]
 
 // На енглеском
-#let kljucne_reci_eng = "Blockchain, Consensus Algorithms, Proof-of-Work, Proof-of-Stake, Parallelization, Distributed Systems, P2P Network, Strong Scaling, Weak Scaling, Rust, Python, Gossip Protocol"
+#let kljucne_reci_eng = "Blockchain, Consensus Algorithms, PoW, PoS, Distributed Systems, P2P Network, Rust, Python"
+
 #let apstrakt_eng = [
      This thesis describes the design and implementation of a complete blockchain system focused on the parallelization of consensus algorithms and distributed P2P communication. The project encompasses parallel implementations of Proof-of-Work (PoW) and Proof-of-Stake (PoS) algorithms in Rust and Python, a detailed performance analysis through strong and weak scaling experiments, and a functional decentralized network with a gossip protocol and a longest-chain consensus rule. The results demonstrate significant benefits of parallelization and highlight the fundamental efficiency differences between the PoW and PoS approaches.
 ]
