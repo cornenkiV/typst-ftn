@@ -111,7 +111,7 @@
       rect(align(left + horizon, disciplina), fill: clr, width: 59%, height: 12pt)
   )
   place(left + top,
-      dy: 57.5%,
+      dy: 57.7%,
       dx: left_edge,
       rect(align(left + horizon, kljucne_reci), fill: clr, width: 59%, height: 12pt)
   )
